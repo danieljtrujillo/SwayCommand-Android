@@ -1,0 +1,10 @@
+{
+  "name": "swaycommand-android",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build:web": "node scripts/build-web.cjs",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "devDependencies": { "esbuild": "0.28.2", "three": "0.185.1" }
+}
